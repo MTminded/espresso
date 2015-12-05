@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F25044E51C1293C9009DD47D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25044E41C1293C9009DD47D /* AppDelegate.swift */; };
+		F25044E71C1293C9009DD47D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25044E61C1293C9009DD47D /* ViewController.swift */; };
+		F25044EA1C1293C9009DD47D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25044E81C1293C9009DD47D /* Main.storyboard */; };
+		F25044EC1C1293C9009DD47D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25044EB1C1293C9009DD47D /* Assets.xcassets */; };
+		F25044EF1C1293C9009DD47D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25044ED1C1293C9009DD47D /* LaunchScreen.storyboard */; };
+		F25044FA1C1293C9009DD47D /* ExpressoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25044F91C1293C9009DD47D /* ExpressoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F25044F61C1293C9009DD47D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25044D91C1293C9009DD47D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25044E01C1293C9009DD47D;
+			remoteInfo = Expresso;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F25044E11C1293C9009DD47D /* Expresso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expresso.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25044E41C1293C9009DD47D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F25044E61C1293C9009DD47D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F25044E91C1293C9009DD47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F25044EB1C1293C9009DD47D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F25044EE1C1293C9009DD47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F25044F01C1293C9009DD47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25044F51C1293C9009DD47D /* ExpressoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpressoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25044F91C1293C9009DD47D /* ExpressoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressoTests.swift; sourceTree = "<group>"; };
+		F25044FB1C1293C9009DD47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25044DE1C1293C9009DD47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25044F21C1293C9009DD47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25044D81C1293C9009DD47D = {
+			isa = PBXGroup;
+			children = (
+				F25044E31C1293C9009DD47D /* Expresso */,
+				F25044F81C1293C9009DD47D /* ExpressoTests */,
+				F25044E21C1293C9009DD47D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F25044E21C1293C9009DD47D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25044E11C1293C9009DD47D /* Expresso.app */,
+				F25044F51C1293C9009DD47D /* ExpressoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25044E31C1293C9009DD47D /* Expresso */ = {
+			isa = PBXGroup;
+			children = (
+				F25044E41C1293C9009DD47D /* AppDelegate.swift */,
+				F25044E61C1293C9009DD47D /* ViewController.swift */,
+				F25044E81C1293C9009DD47D /* Main.storyboard */,
+				F25044EB1C1293C9009DD47D /* Assets.xcassets */,
+				F25044ED1C1293C9009DD47D /* LaunchScreen.storyboard */,
+				F25044F01C1293C9009DD47D /* Info.plist */,
+			);
+			path = Expresso;
+			sourceTree = "<group>";
+		};
+		F25044F81C1293C9009DD47D /* ExpressoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F25044F91C1293C9009DD47D /* ExpressoTests.swift */,
+				F25044FB1C1293C9009DD47D /* Info.plist */,
+			);
+			path = ExpressoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25044E01C1293C9009DD47D /* Expresso */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25044FE1C1293C9009DD47D /* Build configuration list for PBXNativeTarget "Expresso" */;
+			buildPhases = (
+				F25044DD1C1293C9009DD47D /* Sources */,
+				F25044DE1C1293C9009DD47D /* Frameworks */,
+				F25044DF1C1293C9009DD47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Expresso;
+			productName = Expresso;
+			productReference = F25044E11C1293C9009DD47D /* Expresso.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F25044F41C1293C9009DD47D /* ExpressoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25045011C1293C9009DD47D /* Build configuration list for PBXNativeTarget "ExpressoTests" */;
+			buildPhases = (
+				F25044F11C1293C9009DD47D /* Sources */,
+				F25044F21C1293C9009DD47D /* Frameworks */,
+				F25044F31C1293C9009DD47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25044F71C1293C9009DD47D /* PBXTargetDependency */,
+			);
+			name = ExpressoTests;
+			productName = ExpressoTests;
+			productReference = F25044F51C1293C9009DD47D /* ExpressoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25044D91C1293C9009DD47D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Pluralsight;
+				TargetAttributes = {
+					F25044E01C1293C9009DD47D = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					F25044F41C1293C9009DD47D = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = F25044E01C1293C9009DD47D;
+					};
+				};
+			};
+			buildConfigurationList = F25044DC1C1293C9009DD47D /* Build configuration list for PBXProject "Expresso" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25044D81C1293C9009DD47D;
+			productRefGroup = F25044E21C1293C9009DD47D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25044E01C1293C9009DD47D /* Expresso */,
+				F25044F41C1293C9009DD47D /* ExpressoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25044DF1C1293C9009DD47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25044EF1C1293C9009DD47D /* LaunchScreen.storyboard in Resources */,
+				F25044EC1C1293C9009DD47D /* Assets.xcassets in Resources */,
+				F25044EA1C1293C9009DD47D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25044F31C1293C9009DD47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25044DD1C1293C9009DD47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25044E71C1293C9009DD47D /* ViewController.swift in Sources */,
+				F25044E51C1293C9009DD47D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25044F11C1293C9009DD47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25044FA1C1293C9009DD47D /* ExpressoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F25044F71C1293C9009DD47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25044E01C1293C9009DD47D /* Expresso */;
+			targetProxy = F25044F61C1293C9009DD47D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F25044E81C1293C9009DD47D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25044E91C1293C9009DD47D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F25044ED1C1293C9009DD47D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25044EE1C1293C9009DD47D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F25044FC1C1293C9009DD47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F25044FD1C1293C9009DD47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F25044FF1C1293C9009DD47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Expresso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pluralsight.andrew-bancroft.Expresso";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F25045001C1293C9009DD47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Expresso/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pluralsight.andrew-bancroft.Expresso";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F25045021C1293C9009DD47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExpressoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pluralsight.andrew-bancroft.ExpressoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expresso.app/Expresso";
+			};
+			name = Debug;
+		};
+		F25045031C1293C9009DD47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ExpressoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pluralsight.andrew-bancroft.ExpressoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Expresso.app/Expresso";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25044DC1C1293C9009DD47D /* Build configuration list for PBXProject "Expresso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25044FC1C1293C9009DD47D /* Debug */,
+				F25044FD1C1293C9009DD47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25044FE1C1293C9009DD47D /* Build configuration list for PBXNativeTarget "Expresso" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25044FF1C1293C9009DD47D /* Debug */,
+				F25045001C1293C9009DD47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F25045011C1293C9009DD47D /* Build configuration list for PBXNativeTarget "ExpressoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25045021C1293C9009DD47D /* Debug */,
+				F25045031C1293C9009DD47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25044D91C1293C9009DD47D /* Project object */;
+}
