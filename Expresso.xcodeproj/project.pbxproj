@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		F25044E51C1293C9009DD47D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25044E41C1293C9009DD47D /* AppDelegate.swift */; };
-		F25044E71C1293C9009DD47D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25044E61C1293C9009DD47D /* ViewController.swift */; };
+		F25044E71C1293C9009DD47D /* ExpressoMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25044E61C1293C9009DD47D /* ExpressoMenuController.swift */; };
 		F25044EA1C1293C9009DD47D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25044E81C1293C9009DD47D /* Main.storyboard */; };
 		F25044EC1C1293C9009DD47D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25044EB1C1293C9009DD47D /* Assets.xcassets */; };
 		F25044EF1C1293C9009DD47D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25044ED1C1293C9009DD47D /* LaunchScreen.storyboard */; };
 		F25044FA1C1293C9009DD47D /* ExpressoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25044F91C1293C9009DD47D /* ExpressoTests.swift */; };
+		F25045051C1298B0009DD47D /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25045041C1298B0009DD47D /* OrderController.swift */; };
+		F25045071C129A05009DD47D /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25045061C129A05009DD47D /* ColorScheme.swift */; };
+		F25045091C12A037009DD47D /* ModelTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25045081C12A037009DD47D /* ModelTypes.swift */; };
+		F250450B1C12B940009DD47D /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250450A1C12B940009DD47D /* UIViewExtensions.swift */; };
+		F250450D1C12BE62009DD47D /* RESTApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F250450C1C12BE62009DD47D /* RESTApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +33,7 @@
 /* Begin PBXFileReference section */
 		F25044E11C1293C9009DD47D /* Expresso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Expresso.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25044E41C1293C9009DD47D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F25044E61C1293C9009DD47D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F25044E61C1293C9009DD47D /* ExpressoMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressoMenuController.swift; sourceTree = "<group>"; };
 		F25044E91C1293C9009DD47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F25044EB1C1293C9009DD47D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F25044EE1C1293C9009DD47D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +41,11 @@
 		F25044F51C1293C9009DD47D /* ExpressoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpressoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F25044F91C1293C9009DD47D /* ExpressoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressoTests.swift; sourceTree = "<group>"; };
 		F25044FB1C1293C9009DD47D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25045041C1298B0009DD47D /* OrderController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
+		F25045061C129A05009DD47D /* ColorScheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		F25045081C12A037009DD47D /* ModelTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTypes.swift; sourceTree = "<group>"; };
+		F250450A1C12B940009DD47D /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		F250450C1C12BE62009DD47D /* RESTApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +87,16 @@
 		F25044E31C1293C9009DD47D /* Expresso */ = {
 			isa = PBXGroup;
 			children = (
-				F25044E41C1293C9009DD47D /* AppDelegate.swift */,
-				F25044E61C1293C9009DD47D /* ViewController.swift */,
+				F25045081C12A037009DD47D /* ModelTypes.swift */,
+				F250450C1C12BE62009DD47D /* RESTApi.swift */,
+				F250450A1C12B940009DD47D /* UIViewExtensions.swift */,
+				F25045061C129A05009DD47D /* ColorScheme.swift */,
+				F25044E61C1293C9009DD47D /* ExpressoMenuController.swift */,
+				F25045041C1298B0009DD47D /* OrderController.swift */,
 				F25044E81C1293C9009DD47D /* Main.storyboard */,
 				F25044EB1C1293C9009DD47D /* Assets.xcassets */,
 				F25044ED1C1293C9009DD47D /* LaunchScreen.storyboard */,
+				F25044E41C1293C9009DD47D /* AppDelegate.swift */,
 				F25044F01C1293C9009DD47D /* Info.plist */,
 			);
 			path = Expresso;
@@ -196,7 +211,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F25044E71C1293C9009DD47D /* ViewController.swift in Sources */,
+				F25045091C12A037009DD47D /* ModelTypes.swift in Sources */,
+				F250450D1C12BE62009DD47D /* RESTApi.swift in Sources */,
+				F250450B1C12B940009DD47D /* UIViewExtensions.swift in Sources */,
+				F25045071C129A05009DD47D /* ColorScheme.swift in Sources */,
+				F25045051C1298B0009DD47D /* OrderController.swift in Sources */,
+				F25044E71C1293C9009DD47D /* ExpressoMenuController.swift in Sources */,
 				F25044E51C1293C9009DD47D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,10 +346,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Expresso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pluralsight.andrew-bancroft.Expresso";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -337,10 +360,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Expresso/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pluralsight.andrew-bancroft.Expresso";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -387,6 +413,7 @@
 				F25045001C1293C9009DD47D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F25045011C1293C9009DD47D /* Build configuration list for PBXNativeTarget "ExpressoTests" */ = {
 			isa = XCConfigurationList;
@@ -395,6 +422,7 @@
 				F25045031C1293C9009DD47D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

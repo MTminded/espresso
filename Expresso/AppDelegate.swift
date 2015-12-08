@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Expresso
-//
-//  Created by Andrew Bancroft on 12/4/15.
-//  Copyright © 2015 Pluralsight. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
@@ -16,6 +8,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
 		// Override point for customization after application launch.
+		
+		UINavigationBar.appearance().barTintColor = ColorScheme.primary
+		UINavigationBar.appearance().tintColor = ColorScheme.tint
+		UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.whiteColor()]
+		UINavigationBar.appearance().barStyle = .Black
+
 		return true
 	}
 
